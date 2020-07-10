@@ -1,0 +1,9 @@
+[Unit]
+Description=Pi Keyboard
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/pikeyboard_config.sh
+
+[Install]
+WantedBy=multi-user.target
